@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A441A6B520D0DC420067F995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A441A6B420D0DC420067F995 /* AppDelegate.m */; };
+		A441A6B820D0DC420067F995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A441A6B720D0DC420067F995 /* ViewController.m */; };
+		A441A6BB20D0DC420067F995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A441A6B920D0DC420067F995 /* Main.storyboard */; };
+		A441A6BD20D0DC430067F995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A441A6BC20D0DC430067F995 /* Assets.xcassets */; };
+		A441A6C020D0DC430067F995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A441A6BE20D0DC430067F995 /* LaunchScreen.storyboard */; };
+		A441A6C320D0DC430067F995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A441A6C220D0DC430067F995 /* main.m */; };
+		A441A6CC20D0DC810067F995 /* TTTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A441A6CB20D0DC810067F995 /* TTTimer.m */; };
+		A441A6CF20D111C60067F995 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A441A6CE20D111C60067F995 /* TTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A441A6B020D0DC420067F995 /* TTTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A441A6B320D0DC420067F995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A441A6B420D0DC420067F995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A441A6B620D0DC420067F995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A441A6B720D0DC420067F995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A441A6BA20D0DC420067F995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A441A6BC20D0DC430067F995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A441A6BF20D0DC430067F995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A441A6C120D0DC430067F995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A441A6C220D0DC430067F995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A441A6CA20D0DC810067F995 /* TTTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTimer.h; sourceTree = "<group>"; };
+		A441A6CB20D0DC810067F995 /* TTTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTimer.m; sourceTree = "<group>"; };
+		A441A6CD20D111C60067F995 /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		A441A6CE20D111C60067F995 /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A441A6AD20D0DC420067F995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A441A6A720D0DC420067F995 = {
+			isa = PBXGroup;
+			children = (
+				A441A6B220D0DC420067F995 /* TTTimer */,
+				A441A6B120D0DC420067F995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A441A6B120D0DC420067F995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A441A6B020D0DC420067F995 /* TTTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A441A6B220D0DC420067F995 /* TTTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A441A6C920D0DC680067F995 /* Source */,
+				A441A6B320D0DC420067F995 /* AppDelegate.h */,
+				A441A6B420D0DC420067F995 /* AppDelegate.m */,
+				A441A6B620D0DC420067F995 /* ViewController.h */,
+				A441A6B720D0DC420067F995 /* ViewController.m */,
+				A441A6CD20D111C60067F995 /* TTViewController.h */,
+				A441A6CE20D111C60067F995 /* TTViewController.m */,
+				A441A6B920D0DC420067F995 /* Main.storyboard */,
+				A441A6BC20D0DC430067F995 /* Assets.xcassets */,
+				A441A6BE20D0DC430067F995 /* LaunchScreen.storyboard */,
+				A441A6C120D0DC430067F995 /* Info.plist */,
+				A441A6C220D0DC430067F995 /* main.m */,
+			);
+			path = TTTimer;
+			sourceTree = "<group>";
+		};
+		A441A6C920D0DC680067F995 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A441A6CA20D0DC810067F995 /* TTTimer.h */,
+				A441A6CB20D0DC810067F995 /* TTTimer.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A441A6AF20D0DC420067F995 /* TTTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A441A6C620D0DC430067F995 /* Build configuration list for PBXNativeTarget "TTTimer" */;
+			buildPhases = (
+				A441A6AC20D0DC420067F995 /* Sources */,
+				A441A6AD20D0DC420067F995 /* Frameworks */,
+				A441A6AE20D0DC420067F995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTimer;
+			productName = TTTimer;
+			productReference = A441A6B020D0DC420067F995 /* TTTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A441A6A820D0DC420067F995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MOMO;
+				TargetAttributes = {
+					A441A6AF20D0DC420067F995 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A441A6AB20D0DC420067F995 /* Build configuration list for PBXProject "TTTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A441A6A720D0DC420067F995;
+			productRefGroup = A441A6B120D0DC420067F995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A441A6AF20D0DC420067F995 /* TTTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A441A6AE20D0DC420067F995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A441A6C020D0DC430067F995 /* LaunchScreen.storyboard in Resources */,
+				A441A6BD20D0DC430067F995 /* Assets.xcassets in Resources */,
+				A441A6BB20D0DC420067F995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A441A6AC20D0DC420067F995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A441A6CF20D111C60067F995 /* TTViewController.m in Sources */,
+				A441A6B820D0DC420067F995 /* ViewController.m in Sources */,
+				A441A6CC20D0DC810067F995 /* TTTimer.m in Sources */,
+				A441A6C320D0DC430067F995 /* main.m in Sources */,
+				A441A6B520D0DC420067F995 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A441A6B920D0DC420067F995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A441A6BA20D0DC420067F995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A441A6BE20D0DC430067F995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A441A6BF20D0DC430067F995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A441A6C420D0DC430067F995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A441A6C520D0DC430067F995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A441A6C720D0DC430067F995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.zt.TTTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A441A6C820D0DC430067F995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.zt.TTTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A441A6AB20D0DC420067F995 /* Build configuration list for PBXProject "TTTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A441A6C420D0DC430067F995 /* Debug */,
+				A441A6C520D0DC430067F995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A441A6C620D0DC430067F995 /* Build configuration list for PBXNativeTarget "TTTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A441A6C720D0DC430067F995 /* Debug */,
+				A441A6C820D0DC430067F995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A441A6A820D0DC420067F995 /* Project object */;
+}
